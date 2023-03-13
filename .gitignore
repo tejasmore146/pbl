@@ -1,2 +1,3 @@
-.pbl
+.venv
 __pychache__
+.gitignore
