@@ -9,10 +9,10 @@ print(string_list)
 # pulling out the messed up gender from the line
 gender = string_list[-5][-1]
 # removing the extra gender character
-name_3 = string_list[-5]
-name_3 = name_3[:-1]
+gender_name3 = string_list[-5]
+gender_name3 = gender_name3[:-1]
 # updating the string, and inserting the gender
-string_list[-5] = name_3
+string_list[-5] = gender_name3
 string_list.insert(-4, gender)
 string_list.append(" ")
 # remove the new line character
