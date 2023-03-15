@@ -1,7 +1,7 @@
 line1 = " 13 82534 EN22153130 CHOUDHARY CHANDAN "
 line2 = "UPENDRAM OPEN ^ GOPENH 48.1419882"
 # now only need to figure out the code to detect the two lines and join them
-
+# sample_string = " 109 35915 EN22228909 BANSOD KARTIKESH \nGAJANANPANTM OBC & AI 47.0261984"
 
 string = " 13 82534 EN22153130 CHOUDHARY CHANDAN \nUPENDRAM OPEN ^ GOPENH 48.1419882"
 string_list = string.split(" ")
