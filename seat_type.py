@@ -2,8 +2,9 @@ import re
 
 # Define the text to delete
 delete_patterns = [
-    r'Seat Type Candidate\s+CategoryGender Name of the Candidate Application ID Sr.\s+No\.Merit\s+No\.Meri',
-    r'MHT-CET\s+Score'
+    r'Seat Type Candidate\s+CategoryGender Name of the Candidate Application ID Sr.\s+No\.Merit\s+No\.Meri'
+    # r'MHT-CET\s+Score'
+    # new logic
 ]
 
 # Read the contents of the file
