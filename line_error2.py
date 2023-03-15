@@ -21,3 +21,6 @@ with open("file4.txt", "w") as f:
 # then, by a random thought it occured, and i did NOT think it would work
 # but well there you have it.
 # I'd really love to give this assignment to some of my friends and see how they would approach this problem lmao
+
+# Okay got happy too soon, the lines are combined but the gender value is still stuck to the name
+# whatever, the code is understandable, will just fix it tomorrow
