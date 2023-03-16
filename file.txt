@@ -6,43 +6,11 @@ Master of Engineering and Technology (Integrated 5 Years ) Admissions A .Y. 2022
 Seat Type Candidate 
 CategoryGender Name of the Candidate Application ID Sr. 
 No.Merit 
-No.MeriORPHAN Seats
-MHT-CET 
-Score
- 102 108452 EN22189487 CHOUDHARI SHRAVANI 
-SANTOSHF OPEN ^ ORPHAN 21.2317049
-     All India Seats
-Seat Type Candidate 
-CategoryGender Name of the Candidate Application ID Sr. 
-No.Merit 
-No.MeriAll India Seats Allotted to All India Candidature Candidates with JEE(Main) Score
-JEE(Main) 
-Score
- 103 27162 EN22113530 SANDIP JAGAN BHOYE M ST ~ AI 58.8760977
- 104 30455 EN22210712 METICS MRA M OPEN ^ AI 54.5581498
- 105 30480 EN22191098 DIKSHANT JAGDISH NAIK M SC$ * AI 54.5175919
- 106 31375 EN22156057 RAJPUT MEGHRAJSINGH SUNIL M OPEN ^ AI 53.1103679
- 107 31708 EN22203506  SARDAR YASHASH LALDAS M SC * AI 52.7045946
- 108 35894 EN22251982 BULKADE SHIVRAJ PRADIP M OBC$# & AI 47.0965797
- 109 35915 EN22228909 BANSOD KARTIKESH 
-GAJANANPANTM OBC & AI 47.0261984
- 110 39007 EN22111749 MANDAR RUPESH NIMKE M OPEN ^ AI 42.5637576
- 111 39038 EN22207242 PALVE UMESH GANESH M NT 3 (NT-D)# * AI 42.5637576
- 112 39400 EN22238897 DHOTARKAR RAHUL ANANDRAO M DT/VJ * AI 41.9999206
- 113 44019 EN22179755 MORE SAURABH SATISH M OPEN ^ AI 35.2098441
- 114 44463 EN22205228 PAGRUT SHIVANI BHAGWAN F OBC & AI 34.3727123
- 115 45309 EN22173372 PANCHAL TUSHAR PRAKASH M OPEN & AI 33.0671751
- 116 52194 EN22200232 AMAR DEEP SINGH M OPEN ^ AI 20.7993102
- 117 55557 EN22245019 OM VERMA M OPEN ^ AI 13.6454168
-Seat Type Candidate 
-CategoryGender Name of the Candidate Application ID Sr. 
-No.Merit 
 No.MeriAll India Seats Allotted to All India Candidature Candidates with MHT-CET Score
 MHT-CET 
 Score
- 118 96727 EN22210424 PUROHIT SAHARSH RAJNISH M OPEN ~ AI 52.4476185
- 119 104522 EN22246698 BHORE PRANAV SUNIL M OPEN ^ AI 42.5186027
-Page 6 of 8Legends for SeatType : H-Home University, O-Other than Home University, S-State Level, G-General, L-Ladies, AI-All India
+ 120 109909 EN22251738 PAWAR JAY SANJAY M OPEN ^ AI 35.1475881
+Page 7 of 8Legends for SeatType : H-Home University, O-Other than Home University, S-State Level, G-General, L-Ladies, AI-All India
 * Green Color indicates Betterment in Choice Code , @ Blue Color indicates Betterment in Seat Type ,
 Red Color indicates No Change ,  ^ Gray Color indicates Admitted to Institute ,      &  Black Color indicates Newly Allotted
 MI-Minority Seats Allotted to Minority Candidates belonging to eligible Religious /Linguistic community
