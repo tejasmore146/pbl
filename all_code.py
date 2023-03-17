@@ -100,3 +100,21 @@ def fix_line_error(file, space_count):
 
     with open("output.txt", "w") as f:
         f.write("\n".join(new_lines))
+
+
+def remove_minority(file):
+
+    # Define the regular expression pattern
+    pattern = re.compile(r'Minority Seats')
+
+    # Open the file for reading
+    with open(file, 'r') as input_file:
+        # Read the file line by line
+        lines = input_file.readlines()
+
+    # Open the file for writing
+    with open('output.txt', 'w') as output_file:
+        # Loop through the lines and write only those that don't match the pattern
+        for line in lines:
+            if not pattern.search(line):
+                output_file.write(line)
