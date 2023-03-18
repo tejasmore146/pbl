@@ -12,7 +12,7 @@ Reference links:
 
 2022 Data: [https://fe2022.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=2021](https://fe2022.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=2021)
 
-2021 Data: [https://fe2021.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=202](https://fe2022.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=2021)0
+2021 Data: [https://fe2021.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=2020](https://fe2021.mahacet.org/StaticPages/frmInstituteWiseAllotmentList?did=2020)
 
 ## Checklist :
 
