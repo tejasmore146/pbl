@@ -118,3 +118,18 @@ def remove_minority(file):
         for line in lines:
             if not pattern.search(line):
                 output_file.write(line)
+
+
+def state_level_merge(file):
+
+    # Open the file and read its contents
+    with open(file, "r") as f:
+        text = f.read()
+
+    # Check if the file contains two consecutive lines with "State Level Seats"
+    if re.search(r'State Level Seats\nState Level Seats', text):
+        # If it does, replace the lines with "State Level Seats"
+        merged_text = re.sub(r'State Level Seats\nState Level Seats', 'State Level Seats', text)
+        # Write the merged text back to the file
+        with open("output.txt", "w") as f:
+            f.write(merged_text)
