@@ -31,4 +31,5 @@ Reference links:
 - [x]  Remove lines with Minority Seats
 - [x]  Merge Lines that are split because of Long names
 - [x]  Merge the line with State Level Seats
+- [ ]  Merge score type into one line
 - [ ]  Do something about the Page Number

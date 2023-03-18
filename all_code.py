@@ -133,3 +133,16 @@ def state_level_merge(file):
         # Write the merged text back to the file
         with open("output.txt", "w") as f:
             f.write(merged_text)
+
+
+def mht_cet_merge(file):
+    # Read the contents of the file
+    with open(file, 'r') as f:
+        contents = f.read()
+
+    # Use regular expressions to merge the two lines
+    merged_contents = re.sub(r'MHT-CET\nScore', 'MHT-CET Score', contents)
+
+    # Write the updated contents back to the file
+    with open('output.txt', 'w') as f:
+        f.write(merged_contents)
