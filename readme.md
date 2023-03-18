@@ -4,7 +4,7 @@ This project aims to collect data from publically available pdfs found at the Of
 
 ## Goals :
 
-Make collect all the valid data that exists in the pdfs.
+Collect all the valid data that exists in the pdfs.
 
 Automate the scraping to work for the past year and the following year.
 
