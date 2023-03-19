@@ -137,12 +137,22 @@ def state_level_merge(file):
 
 def mht_cet_merge(file):
     # Read the contents of the file
-    with open(file, 'r') as f:
-        contents = f.read()
+    with open(file, "r") as f:
+        text = f.read()
 
-    # Use regular expressions to merge the two lines
-    merged_contents = re.sub(r'MHT-CET\nScore', 'MHT-CET Score', contents)
+    if re.search(r'MHT-CET \nScore', text):
+        merged_text = re.sub(r'MHT-CET \nScore', 'MHT-CET Score', text)
+        # Write the merged text back to the file
+        with open("output.txt", "w") as f:
+            f.write(merged_text)
 
-    # Write the updated contents back to the file
-    with open('output.txt', 'w') as f:
-        f.write(merged_contents)
+def jee_main_merge(file):
+    # Read the contents of the file
+    with open(file, "r") as f:
+        text = f.read()
+
+    if re.search(r'JEE\(Main\) \nScore', text):
+        merged_text = re.sub(r'JEE\(Main\) \nScore', 'JEE(Main) Score', text)
+        # Write the merged text back to the file
+        with open("output.txt", "w") as f:
+            f.write(merged_text)
