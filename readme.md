@@ -33,5 +33,6 @@ Reference links:
 - [x]  Merge the line with State Level Seats
 - [x]  Merge score type into one line
 - [ ]  Write a function to convert each line to a list
-- [ ]  Everything that is between ['M','F'] and ['^','@','~','&','*'] is the Candidate Category
+- [x]  Everything that is between ['M','F'] and ['^','@','~','&','*'] is the Candidate Category
+- [ ]  Everything between third index and M/F is the name
 - [ ]  Do something about the Page Number
