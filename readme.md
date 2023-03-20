@@ -32,4 +32,6 @@ Reference links:
 - [x]  Merge Lines that are split because of Long names
 - [x]  Merge the line with State Level Seats
 - [x]  Merge score type into one line
+- [ ]  Write a function to convert each line to a list
+- [ ]  Everything that is between ['M','F'] and ['^','@','~','&'] is the Candidate Category
 - [ ]  Do something about the Page Number
