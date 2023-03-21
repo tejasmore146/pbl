@@ -35,4 +35,5 @@ Reference links:
 - [ ]  Write a function to convert each line to a list
 - [x]  Everything that is between ['M','F'] and ['^','@','~','&','*'] is the Candidate Category
 - [x]  Everything between second index and M/F is the name
+- [x]  Add strip function
 - [ ]  Do something about the Page Number
