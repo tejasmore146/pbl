@@ -22,18 +22,19 @@ Reference links:
 - [x]  Write individual functions to make the text legible
 - [x]  List out the logic used in the documentation
 - [x]  Rewrite all of it in a single file while using function definitions
+- [x]  Add strip function
+- [ ]  Write a function to convert each line to a list
 - [ ]  Keep implementing more logic
-
-## Logic :
-
+- [x]  Merge the line with State Level Seats
 - [x]  Remove header and footer
 - [x]  Remove the Candidate Seat type line
 - [x]  Remove lines with Minority Seats
 - [x]  Merge Lines that are split because of Long names
-- [x]  Merge the line with State Level Seats
 - [x]  Merge score type into one line
-- [ ]  Write a function to convert each line to a list
+
+## Logic :
+
 - [x]  Everything that is between ['M','F'] and ['^','@','~','&','*'] is the Candidate Category
 - [x]  Everything between second index and M/F is the name
-- [x]  Add strip function
+- [ ]  Think about how to parse the other info, like page number, college name, seat type and such.
 - [ ]  Do something about the Page Number
