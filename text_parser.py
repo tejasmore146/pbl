@@ -1,8 +1,12 @@
-lst = ['93', '109699', 'EN22248961', 'JAMODKAR', 'SANDEEP',
-       'UDHAV', 'M', 'NT', '1', '(NT-B)$', '*', 'GNT1O', '19.4998540']
+# lst = ['93', '109699', 'EN22248961', 'JAMODKAR', 'SANDEEP',
+#        'UDHAV', 'M', 'NT', '1', '(NT-B)$', '*', 'GNT1O', '19.4998540']
+
+string = "88 92708 EN22233827  RUNWAL RISHIKESH MANISH M OBC ^ GOBCO 38.6417086"
+lst = string.split(" ")
 
 
 def compress_list(lst):
+
     # Find the index of the first occurrence of "M" or "F"
     mf_index = None
     for i in range(len(lst)):
@@ -23,7 +27,8 @@ def compress_list(lst):
 
     # Join everything between the two types of data
     if mf_index is not None and special_index is not None and mf_index < special_index:
-        lst[mf_index+1:special_index] = [''.join(lst[mf_index+1:special_index])]
+        lst[mf_index +
+            1:special_index] = [''.join(lst[mf_index+1:special_index])]
 
     # Join the name
     if mf_index is not None:
@@ -31,4 +36,12 @@ def compress_list(lst):
 
     return lst
 
-print(compress_list(lst))
+
+lst = compress_list(lst)
+
+
+def strip_strings(lst):
+    return list(map(str.strip, lst))
+
+
+print(strip_strings(lst))
