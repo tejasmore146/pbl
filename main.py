@@ -6,7 +6,7 @@ if os.path.exists("output.txt"):
 
 file = "CAPR-III_6207.pdf"
 
-extract(file, 4)
+extract(file, 17)
 file = "file.txt"
 remove_header_footer(file)
 file = "output.txt"
