@@ -2,7 +2,7 @@ lst = ['93', '109699', 'EN22248961', 'JAMODKAR', 'SANDEEP',
        'UDHAV', 'M', 'NT', '1', '(NT-B)$', '*', 'GNT1O', '19.4998540']
 
 
-def get_category(lst):
+def compress_list(lst):
     # Find the index of the first occurrence of "M" or "F"
     mf_index = None
     for i in range(len(lst)):
@@ -17,28 +17,18 @@ def get_category(lst):
             special_index = i
             break
 
-    # Print mf_index and special_index
-    print("mf_index = ", mf_index)
-    print("special_index = ", special_index)
+    # # Print mf_index and special_index
+    # print("mf_index = ", mf_index)
+    # print("special_index = ", special_index)
 
     # Join everything between the two types of data
-    # if mf_index is not None and special_index is not None:
-    #     if mf_index < special_index:
-    #         category = " ".join(lst[mf_index+1:special_index])
-    #     else:
-    #         category = " ".join(lst[special_index+1:mf_index])
-    #     print(category)
-    # else:
-    #     print("Could not find both types of data in the list.")
+    if mf_index is not None and special_index is not None and mf_index < special_index:
+        lst[mf_index+1:special_index] = [''.join(lst[mf_index+1:special_index])]
 
-    if mf_index is not None and special_index is not None:
-        if mf_index < special_index:
-            category = " ".join(lst[mf_index+1:special_index])
-        else:
-            category = " ".join(lst[special_index+1:mf_index])
+    # Join the name
+    if mf_index is not None:
+        lst[3:mf_index] = [' '.join(lst[3:mf_index])]
 
-        return category
+    return lst
 
-
-
-print(get_category(lst))
+print(compress_list(lst))

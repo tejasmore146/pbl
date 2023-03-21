@@ -34,5 +34,5 @@ Reference links:
 - [x]  Merge score type into one line
 - [ ]  Write a function to convert each line to a list
 - [x]  Everything that is between ['M','F'] and ['^','@','~','&','*'] is the Candidate Category
-- [ ]  Everything between second index and M/F is the name
+- [x]  Everything between second index and M/F is the name
 - [ ]  Do something about the Page Number
